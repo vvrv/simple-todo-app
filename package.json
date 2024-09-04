@@ -1,0 +1,19 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "cdk",
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "cdk": "yarn workspace cdk",
+    "backend": "yarn workspace backend",
+    "frontend": "yarn workspace frontend"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.3",
+    "typescript": "^5.5.4"
+  }
+}
